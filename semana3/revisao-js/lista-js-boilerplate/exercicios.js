@@ -56,7 +56,13 @@ function retornaNNumerosPares(n) {
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
-  // implemente sua lógica aqui
+   if(a !== b && b !== c) {
+      return "Escaleno"
+     } else if(a === b && b === c) {
+       return "Equilátero"
+      } else {
+        return "Isósceles"
+      }
 }
 
 // Exercício 9
