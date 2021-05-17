@@ -132,13 +132,19 @@ const arrayDePessoas = [
 // Exercício 16, letra A
 
 function maioresDe18(arrayDePessoas) {
-   // implemente sua lógica aqui
-}
+   const novoArray = arrayDePessoas.filter((pessoa) => {
+      return pessoa.idade >= 20
+     })
+     return novoArray
+    }
 
 // Exercício 16, letra B
 
 function menoresDe18(arrayDePessoas) {
-   // implemente sua lógica aqui
+   const novoArray = arrayDePessoas.filter((pessoa) => {
+      return pessoa.idade < 20
+      })
+     return novoArray
 }
 
 // Exercício 17, letra A
