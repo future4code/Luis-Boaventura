@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: mediumvioletred;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+   
+ img
+{
+     height: 30px;
+     bottom: 0;
+}
+
+.titulo
+{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 3px;
+}
+
+.titulo h1
+{
+    margin-left: 5px;
+}
+
+nav
+{
+    background-color: #f2d0e0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    
+}
+.casinha,
+.produtos,
+.carrinho,
+.perfil
+
+{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
