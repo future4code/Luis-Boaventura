@@ -1,4 +1,4 @@
-> Atividade 2
+ Atividade 2
 
 >As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia e R$ 1,00 se forem compradas pelo menos 12.
 
