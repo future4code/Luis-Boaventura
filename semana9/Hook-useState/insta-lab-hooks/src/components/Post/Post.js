@@ -33,21 +33,21 @@ const Post = (props) => {
 
   const enviarComentario = (comentario) => {
     const listaDeComentarios = [...comentarios, comentario]
-      setcomentarios(listaDeComentarios),
-      setcomentando(false),
-     setnumeroComentarios(numeroComentarios + 1)//
+      setcomentarios(listaDeComentarios)
+      setcomentando(false)
+      setnumeroComentarios(numeroComentarios + 1)
   }
 
-  const caixaDeComentario = comentando ? (
-    
-    <SecaoComentario enviarComentario={enviarComentario}/>) : (comentarios.map(comentario => {
+  const caixaDeComentario = comentando ? 
+  (<SecaoComentario enviarComentario={enviarComentario} />) : 
+  (comentarios.map((comentario) => {
       return (
         <CommentContainer>
           <p>{comentario}</p>
         </CommentContainer>
-      )
+      );
     })
-  )
+  );
 
   return (
     <PostContainer>
@@ -71,7 +71,7 @@ const Post = (props) => {
            valorContador={numeroComentarios}
         />
       </PostFooter>
-      { {caixaDeComentario} }
+      {caixaDeComentario}
     </PostContainer>
   )
 }
