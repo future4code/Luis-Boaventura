@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Main from "./Components/Main/Main";
+import ResetButton from "./Components/ResetButton/ResetButton";
+import styled from "styled-components";
+
+const AppContainer = styled.div`
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(black, MediumOrchid, white);
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <Main />
+      <ResetButton />
+    </AppContainer>
   );
 }
 
