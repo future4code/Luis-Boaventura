@@ -1,0 +1,14 @@
+{
+  "name": "template-node-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nome_no_console": "clear && node ./src/Exercicio1b",
+    "idade" : "clear && node ./src/Exercicio1c",
+    "soma":"clear && node ./src/Exercicio2"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
